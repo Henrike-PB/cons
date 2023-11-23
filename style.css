@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(248, 162, 3);
+    background-image: url(https://img.freepik.com/vetores-gratis/dia-da-consciencia-negra-desenhado-a-mao_23-2148679910.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+h1 {
+    text-align: right;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2em;
+}
+
+.texto {
+    position: absolute;
+    margin: left;
+    float: left;
+    left: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-bottom: 2em;
+    background: #f1f1f1;
+}
+
+
+.texto:nth-child(even) img {
+    order: 2;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 0.8em 1.8em;
+    margin-top: 2em;
+    cursor: help;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.texto div {
+    padding: 2em;
+}
